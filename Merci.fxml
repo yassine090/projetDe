@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interfacepackage.MerciController">
+   <children>
+      <Label layoutX="120.0" layoutY="130.0" prefHeight="104.0" prefWidth="404.0" text="Merci pour votre Participation !" textFill="#ea2020">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="ok" layoutX="246.0" layoutY="280.0" mnemonicParsing="false" onAction="#ret" prefHeight="26.0" prefWidth="76.0" text="OK" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interfacepackage.SupprimerFormulaireController">
+   <children>
+      <Label fx:id="ttid" layoutX="44.0" layoutY="34.0" prefHeight="26.0" prefWidth="111.0" text="ID:" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="445.0" />
+      <TextField fx:id="tID" layoutX="232.0" layoutY="34.0" AnchorPane.leftAnchor="232.0" AnchorPane.rightAnchor="218.4" />
+      <Button fx:id="ok" layoutX="405.0" layoutY="34.0" mnemonicParsing="false" onAction="#SearchOk" text="OK" />
+      <Button fx:id="retour3" layoutX="138.0" layoutY="359.0" mnemonicParsing="false" onAction="#retourpage3" prefHeight="26.0" prefWidth="94.0" text="Retour" />
+      <Label layoutX="33.0" layoutY="86.0" prefHeight="18.0" prefWidth="179.0" text="Je suis postménopausée" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="377.0" />
+      <Label layoutX="34.0" layoutY="128.0" prefHeight="18.0" prefWidth="179.0" text="Je suis en surpoids ou obèse" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="377.0" />
+      <Label layoutX="34.0" layoutY="170.0" prefHeight="18.0" prefWidth="162.0" text="Je fume des cigarettes" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="394.0" />
+      <Label layoutX="29.0" layoutY="220.0" prefHeight="18.0" prefWidth="171.0" text="J'ai récemment été blessé" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="385.0" />
+      <Label layoutX="34.0" layoutY="256.0" prefHeight="18.0" prefWidth="179.0" text="J'ai un taux de cholestérol élevé" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="377.0" />
+      <Label layoutX="34.0" layoutY="297.0" prefHeight="18.0" prefWidth="179.0" text="J'ai de l'hypertension" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="377.0" />
+      <TextField fx:id="tNom" editable="false" layoutX="232.0" layoutY="82.0" AnchorPane.leftAnchor="232.0" AnchorPane.rightAnchor="218.4" />
+      <TextField fx:id="tPrenom" editable="false" layoutX="225.0" layoutY="124.0" AnchorPane.leftAnchor="232.0" AnchorPane.rightAnchor="218.4" />
+      <TextField fx:id="tAdresse" layoutX="171.0" layoutY="175.0" AnchorPane.leftAnchor="232.0" AnchorPane.rightAnchor="218.4" />
+      <TextField fx:id="tDate" layoutX="171.0" layoutY="216.0" AnchorPane.leftAnchor="232.0" AnchorPane.rightAnchor="218.4" />
+      <TextField fx:id="tSex" editable="false" layoutX="171.0" layoutY="252.0" AnchorPane.leftAnchor="232.0" AnchorPane.rightAnchor="218.4" />
+      <TextField fx:id="tDesc" editable="false" layoutX="171.0" layoutY="293.0" AnchorPane.leftAnchor="232.0" AnchorPane.rightAnchor="218.4" />
+      <Label layoutX="31.0" layoutY="332.0" prefHeight="18.0" prefWidth="162.0" text="Je suis diabétique" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="394.0" />
+      <TextField fx:id="thh" layoutX="171.0" layoutY="328.0" AnchorPane.leftAnchor="232.0" AnchorPane.rightAnchor="218.4" />
+      <Button fx:id="suivant" layoutX="397.0" layoutY="359.0" mnemonicParsing="false" onAction="#nextt" prefHeight="26.0" prefWidth="94.0" text="Suivant" />
+   </children>
+</AnchorPane>

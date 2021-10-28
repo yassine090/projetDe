@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interfacepackage.Page1Controller">
+   <children>
+      <Label layoutX="37.0" layoutY="27.0" prefHeight="14.0" prefWidth="40.0" text="ID:" />
+      <TextField fx:id="tID" layoutX="77.0" layoutY="23.0" prefHeight="18.0" prefWidth="89.0" />
+      <Button fx:id="chercherID" layoutX="175.0" layoutY="23.0" mnemonicParsing="false" onAction="#chercherId" text="Rechercher" />
+      <Label layoutX="9.0" layoutY="65.0" text="Nom:" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="469.4">
+         <padding>
+            <Insets bottom="55.0" top="11.0" />
+         </padding>
+      </Label>
+      <Label layoutX="290.0" layoutY="69.0" prefHeight="34.0" prefWidth="90.0" text="Prenom:" AnchorPane.leftAnchor="290.0" AnchorPane.rightAnchor="220.0">
+         <padding>
+            <Insets bottom="55.0" top="11.0" />
+         </padding>
+      </Label>
+      <Label layoutX="9.0" layoutY="107.0" text="Adresse:" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="469.4">
+         <padding>
+            <Insets bottom="55.0" top="11.0" />
+         </padding>
+      </Label>
+      <Label layoutX="9.0" layoutY="143.0" text="Sexe:" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="469.4">
+         <padding>
+            <Insets bottom="55.0" top="11.0" />
+         </padding>
+      </Label>
+      <Label layoutX="290.0" layoutY="111.0" text="Age :" AnchorPane.leftAnchor="290.0" AnchorPane.rightAnchor="188.39999999999998">
+         <padding>
+            <Insets bottom="55.0" top="11.0" />
+         </padding>
+      </Label>
+      <Label layoutX="290.0" layoutY="143.0" text="Description Symtomes:" AnchorPane.leftAnchor="290.0" AnchorPane.rightAnchor="188.39999999999998">
+         <padding>
+            <Insets bottom="55.0" top="11.0" />
+         </padding>
+      </Label>
+      <TextArea fx:id="tDesc" layoutX="429.0" layoutY="153.0" prefHeight="42.0" prefWidth="142.0" AnchorPane.leftAnchor="429.0" AnchorPane.rightAnchor="21.399999999999977">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </TextArea>
+      <TextField fx:id="tDate" layoutX="429.0" layoutY="115.0" AnchorPane.leftAnchor="429.0" AnchorPane.rightAnchor="21.399999999999977">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="tAdresse" layoutX="98.0" layoutY="115.0" prefHeight="26.0" prefWidth="150.0" AnchorPane.leftAnchor="98.0" AnchorPane.rightAnchor="352.4">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="tPrenom" layoutX="429.0" layoutY="77.0" AnchorPane.leftAnchor="429.0" AnchorPane.rightAnchor="21.399999999999977" />
+      <TextField fx:id="tNom" layoutX="98.0" layoutY="77.0" AnchorPane.bottomAnchor="297.4" AnchorPane.leftAnchor="98.0" AnchorPane.rightAnchor="352.4" />
+      <TableView fx:id="table_formulaire" layoutY="204.0" prefHeight="166.0" prefWidth="633.0">
+        <columns>
+          <TableColumn fx:id="TableID" prefWidth="49.600035190582275" text="Id" />
+          <TableColumn fx:id="tableNom" prefWidth="83.20008087158203" text="Nom" />
+            <TableColumn fx:id="tablePrenom" prefWidth="92.7999267578125" text="Prenom" />
+            <TableColumn fx:id="tableAdresse" prefWidth="75.0" text="Adresse" />
+            <TableColumn fx:id="tableSexe" prefWidth="74.4000244140625" text="Sexe" />
+            <TableColumn fx:id="tableAge" prefWidth="77.5999755859375" text="Age" />
+            <TableColumn fx:id="tableDesc" prefWidth="171.99996948242188" text="Description des asymtome" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnSupprimer" layoutX="352.0" layoutY="373.0" mnemonicParsing="false" onAction="#supprimerFrmu" prefHeight="26.0" prefWidth="90.0" text="Supprimer" />
+      <Button fx:id="btnModif" layoutX="251.0" layoutY="373.0" mnemonicParsing="false" onAction="#ModifierForm" prefHeight="26.0" prefWidth="90.0" text="Modifier" />
+      <Button fx:id="ajouter" layoutX="156.0" layoutY="373.0" mnemonicParsing="false" onAction="#AjouterForm" prefHeight="26.0" prefWidth="90.0" text="Ajouter" />
+      <RadioButton fx:id="hom" layoutX="98.0" layoutY="153.0" mnemonicParsing="false" onAction="#hom" text="Homme" />
+      <RadioButton fx:id="fem" layoutX="203.0" layoutY="153.0" mnemonicParsing="false" onAction="#fem" text="Femme" />
+   </children>
+</AnchorPane>

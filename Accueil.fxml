@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interfacepackage.AccueilController">
+   <children>
+      <Label layoutX="210.0" layoutY="53.0" text="Bonjour!" textFill="#e40d10">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="138.0" prefHeight="18.0" prefWidth="551.0" text="Vous êtes sur le point d'utiliser un examen de santé">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="6.0" layoutY="173.0" prefHeight="35.0" prefWidth="600.0" text="Vos réponses seront soigneusement analysées et vous">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="5.0" layoutY="208.0" prefHeight="35.0" prefWidth="600.0" text=" découvrirez les causes possibles de vos symptômes.">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSuivant2" layoutX="224.0" layoutY="307.0" mnemonicParsing="false" onAction="#nextpage2" prefHeight="26.0" prefWidth="145.0" text="Suivant" />
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

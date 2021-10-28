@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interfacepackage.AffichageSymtomesController">
+   <children>
+      <Label layoutX="2.0" layoutY="39.0" prefHeight="27.0" prefWidth="600.0" text="Veuillez vérifier toutes les déclarations ci-dessous qui s'appliquent à vous.">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="133.0" layoutY="75.0" prefHeight="18.0" prefWidth="355.0" text="Choisissez une réponse dans chaque rangée.">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="148.0" prefHeight="18.0" prefWidth="142.0" text="Je suis postménopausée" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="438.0" />
+      <Label layoutX="4.0" layoutY="176.0" prefHeight="18.0" prefWidth="166.0" text="Je suis en surpoids ou obèse" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="432.0" />
+      <Label layoutX="22.0" layoutY="209.0" text="Je fume des cigarettes" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="462.4" />
+      <Label layoutX="20.0" layoutY="239.0" text="J'ai récemment été blessé" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="462.4" />
+      <Label layoutX="9.0" layoutY="270.0" prefHeight="18.0" prefWidth="173.0" text="J'ai un taux de cholestérol élevé" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="420.0" />
+      <Label layoutX="25.0" layoutY="302.0" text="J'ai de l'hypertension" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="462.4" />
+      <RadioButton fx:id="oui1" layoutX="191.0" layoutY="148.0" mnemonicParsing="false" text="Oui" AnchorPane.leftAnchor="191.0" AnchorPane.rightAnchor="323.0" />
+      <RadioButton fx:id="Non1" layoutX="332.0" layoutY="148.0" mnemonicParsing="false" text="Non" />
+      <RadioButton fx:id="jsp1" layoutX="467.0" layoutY="148.0" mnemonicParsing="false" text="je ne sais pas" />
+      <RadioButton fx:id="oui2" layoutX="192.0" layoutY="176.0" mnemonicParsing="false" text="Oui" AnchorPane.leftAnchor="191.0" AnchorPane.rightAnchor="323.0" />
+      <RadioButton fx:id="non2" layoutX="333.0" layoutY="176.0" mnemonicParsing="false" text="Non" />
+      <RadioButton fx:id="jsp2" layoutX="469.0" layoutY="176.0" mnemonicParsing="false" text="Je ne sais pas" />
+      <RadioButton fx:id="Oui3" layoutX="192.0" layoutY="209.0" mnemonicParsing="false" text="Oui" AnchorPane.leftAnchor="191.0" AnchorPane.rightAnchor="323.0" />
+      <RadioButton fx:id="oui4" layoutX="193.0" layoutY="239.0" mnemonicParsing="false" text="Oui" AnchorPane.leftAnchor="191.0" AnchorPane.rightAnchor="323.0" />
+      <RadioButton fx:id="Non4" layoutX="334.0" layoutY="239.0" mnemonicParsing="false" text="Non" />
+      <RadioButton fx:id="Non3" layoutX="335.0" layoutY="209.0" mnemonicParsing="false" text="Non" />
+      <RadioButton fx:id="jsp3" layoutX="469.0" layoutY="209.0" mnemonicParsing="false" text="Je ne sais pas" />
+      <RadioButton fx:id="jsp4" layoutX="469.0" layoutY="239.0" mnemonicParsing="false" text="Je ne sais pas" />
+      <RadioButton fx:id="oui5" layoutX="194.0" layoutY="270.0" mnemonicParsing="false" text="Oui" AnchorPane.leftAnchor="191.0" AnchorPane.rightAnchor="323.0" />
+      <RadioButton fx:id="non5" layoutX="335.0" layoutY="270.0" mnemonicParsing="false" text="Non" />
+      <RadioButton fx:id="jsp5" layoutX="469.0" layoutY="270.0" mnemonicParsing="false" text="Je ne sais pas" />
+      <RadioButton fx:id="oui6" layoutX="195.0" layoutY="302.0" mnemonicParsing="false" text="Oui" AnchorPane.leftAnchor="191.0" AnchorPane.rightAnchor="323.0" />
+      <RadioButton fx:id="non6" layoutX="336.0" layoutY="302.0" mnemonicParsing="false" text="Non" />
+      <RadioButton fx:id="jsp6" layoutX="469.0" layoutY="302.0" mnemonicParsing="false" text="Je ne sais pas" />
+      <RadioButton fx:id="oui7" layoutX="192.0" layoutY="337.0" mnemonicParsing="false" text="Oui" />
+      <RadioButton fx:id="non7" layoutX="333.0" layoutY="337.0" mnemonicParsing="false" text="Non" />
+      <RadioButton fx:id="jsp7" layoutX="469.0" layoutY="337.0" mnemonicParsing="false" text="Je ne sais pas" />
+      <Label layoutX="22.0" layoutY="337.0" prefHeight="18.0" prefWidth="108.0" text="Je suis diabétique" />
+      <Button fx:id="SUI" layoutX="267.0" layoutY="361.0" mnemonicParsing="false" onAction="#pageSauivante" text="Suivant" />
+   </children>
+</AnchorPane>
